@@ -14,7 +14,7 @@ git clone https://github.com/Fraaxius/android_device_motorola_sm7325-common.git 
 git clone https://github.com/Fraaxius/kernel_motorola_sm7325.git -b lineage-21 kernel/motorola/sm7325
 
 git clone https://github.com/Fraaxius/vendor_motorola_dubai.git vendor/motorola/dubai
-git clone https://github.com/Fraaxius/vendor_motorola_sm7325-common.git vendor/motorola/sm7325-common
+git clone https://github.com/Fraaxius/vendor_motorola_sm7325-common.git -b fourteen vendor/motorola/sm7325-common
 
 git clone https://github.com/LineageOS/android_hardware_motorola.git -b lineage-21 hardware/motorola
 git clone https://github.com/LineageOS/android_system_qcom.git -b lineage-21 system/qcom
