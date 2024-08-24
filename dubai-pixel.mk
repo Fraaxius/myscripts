@@ -11,7 +11,7 @@ rm -rf system/qcom
 
 git clone https://github.com/Fraaxius/android_device_motorola_dubai.git -b fourteen device/motorola/dubai
 git clone https://github.com/Fraaxius/android_device_motorola_sm7325-common.git -b fourteen device/motorola/sm7325-common
-git clone https://github.com/Fraaxius/kernel_motorola_sm7325.git -b lineage-21 kernel/motorola/sm7325
+git clone https://github.com/LineageOS/android_kernel_motorola_sm7325 -b lineage-21 kernel/motorola/sm7325
 
 git clone https://github.com/Fraaxius/vendor_motorola_dubai.git vendor/motorola/dubai
 git clone https://github.com/Fraaxius/vendor_motorola_sm7325-common.git -b fourteen vendor/motorola/sm7325-common
