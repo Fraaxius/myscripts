@@ -9,12 +9,12 @@ rm -rf kernel/motorola
 rm -rf hardware/motorola
 rm -rf system/qcom
 
-git clone https://github.com/Fraaxius/android_device_motorola_dubai.git -b 14-gapps device/motorola/dubai
-git clone https://github.com/Fraaxius/android_device_motorola_sm7325-common.git -b 14 device/motorola/sm7325-common
-git clone https://github.com/Fraaxius/kernel_motorola_sm7325.git -b lineage-21 kernel/motorola/sm7325
+git clone https://github.com/Infinity-X-Devices/android_device_motorola_dubai.git -b 14-gapps device/motorola/dubai
+git clone https://github.com/Infinity-X-Devices/android_device_motorola_sm7325-common.git -b 14 device/motorola/sm7325-common
+git clone https://github.com/Infinity-X-Devices/android_kernel_motorola_sm7325.git -b 14 kernel/motorola/sm7325
 
-git clone https://github.com/Fraaxius/vendor_motorola_dubai.git vendor/motorola/dubai
-git clone https://github.com/Fraaxius/vendor_motorola_sm7325-common.git vendor/motorola/sm7325-common
+git clone https://github.com/Infinity-X-Devices/android_vendor_motorola_dubai.git -b 14 vendor/motorola/dubai
+git clone https://github.com/Infinity-X-Devices/android_vendor_motorola_sm7325-common.git -b 14 vendor/motorola/sm7325-common
 
 git clone https://github.com/LineageOS/android_hardware_motorola.git -b lineage-21 hardware/motorola
 git clone https://github.com/LineageOS/android_system_qcom.git -b lineage-21 system/qcom
